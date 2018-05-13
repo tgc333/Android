@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jh.mywork.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/aaa"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         보내는 분"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   송하인 명      "
+                    android:textColor="@android:color/black" />
+                <EditText
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:background="#EEEEEE"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   전화번호       "
+                    android:textColor="@android:color/black"/>
+                <EditText
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:background="#EEEEEE"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" - "
+                    android:textColor="@android:color/darker_gray"/>
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:background="#EEEEEE"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" - "
+                    android:textColor="@android:color/darker_gray"/>
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:background="#EEEEEE"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   주소              "
+                    android:textColor="@android:color/black"/>
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:background="#EEEEEE"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="우편번호 검색"/>
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:hint="(상세주소 입력)"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="@android:color/black"
+                android:background="#EEEEEE"
+                android:layout_marginBottom="10dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="         받는 분"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   수취인 명      "
+                    android:textColor="@android:color/black" />
+                <EditText
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:background="#EEEEEE"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   전화번호       "
+                    android:textColor="@android:color/black"/>
+                <EditText
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:background="#EEEEEE"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" - "
+                    android:textColor="@android:color/darker_gray"/>
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:background="#EEEEEE"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" - "
+                    android:textColor="@android:color/darker_gray"/>
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:background="#EEEEEE"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   주소              "
+                    android:textColor="@android:color/black"/>
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/black"
+                    android:background="#EEEEEE"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="우편번호 검색"/>
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:hint="(상세주소 입력)"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="@android:color/black"
+                android:background="#EEEEEE"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="신청하기"
+                android:textColor="@android:color/black"
+                android:background="#ffff00"
+                android:layout_marginHorizontal="20dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
