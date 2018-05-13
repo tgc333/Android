@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/action_my_location"
+		android:icon="@android:drawable/ic_menu_zoom"
+		android:title="내 위치"
+		android:alphabeticShortcut="l"
+		android:showAsAction="ifRoom"/>
+	<item android:id="@+id/action_test"
+		android:icon="@android:drawable/ic_menu_more"
+		android:title="지도보기"
+		android:showAsAction="ifRoom">
+		<menu>
+			<group>
+				<item android:id="@+id/action_poi_data"
+					android:title="마커 표시"
+					android:alphabeticShortcut="p"/>
+				<item android:id="@+id/action_floating_data"
+					android:title="직접 지정"
+					android:alphabeticShortcut="f"/>
+			</group>
+		</menu>
+	</item>
+    <item android:id="@+id/action_my_search"
+        android:icon="@android:drawable/ic_menu_zoom"
+        android:title="검색"
+        android:alphabeticShortcut="l"
+        android:showAsAction="ifRoom"/>
+</menu>
+
+
